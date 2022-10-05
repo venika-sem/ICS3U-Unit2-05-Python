@@ -9,7 +9,7 @@ variable_X = 25
 
 
 def local_variable():
-    # this hows what happens with local variables
+    # this shows what happens with local variables
 
     variable_X = 10
     variable_Y = 30
@@ -40,6 +40,8 @@ def main():
 
     local_variable()
     global_variable()
+
+    print("\nDone.")
 
 
 if __name__ == "__main__":
